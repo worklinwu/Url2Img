@@ -1,0 +1,11 @@
+{
+    "author": "linwu",
+    "blog": "http://www.linwu.name/",
+    "name": "analysisRequest",
+    "description": "this is and tools for generate a placeholder image.",
+    "version": "0.0.1",
+    "dependencies": {
+        "route": "*"
+    },
+    "devDependencies": {}
+}

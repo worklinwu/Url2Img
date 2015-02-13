@@ -12,7 +12,7 @@
 * `/{width}/{height}/bgColor` : 生成 `指定背景色` 的图片
 * `/{width}/{height}/bgColor/fontColor` : 生成 `指定背景色` 和 `指定文字色` 的图片
     
-### Example:
+### How to use:
 ```
 $ npm install
 ```

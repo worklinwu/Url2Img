@@ -6,22 +6,26 @@
     <style type="text/css">
         body, html{ padding:0; margin:0; font:14px/1.6 'Microsoft YaHei', sans-serif; color:#333;}
         header{ background-color:#f55; }
-        header h1{ display:inline-block; padding:20px; margin:0; font:bold 24px/1 'Microsoft YaHei', sans-serif; color:#fff; }
-        header .meta{ margin-right:30px; font:14px/24px 'Microsoft YaHei', sans-serif; color:#fff; }
+        header h1{ display:block; padding:20px 20px 14px; margin:0; font:bold 24px/1 'Microsoft YaHei', sans-serif; color:#fff; }
+        header .meta { padding:0 20px 10px;}
+        header .meta span{ margin-right:30px; font:14px/24px 'Microsoft YaHei', sans-serif; color:#fff; }
         header .meta a{ color:#fff; text-decoration:underline; }
 
         .desc{ padding:10px; background-color:#e1e1e1;  border-bottom:solid 1px #ddd;}
         .desc code{ border:1px solid #ccc; border-radius:4px; padding:3px 6px; background-color:#eee;}
 
         .example{ padding:10px 20px; background-color:#eee; border-bottom:solid 1px #ddd; border-top:solid 1px #fff; }
-        .example h2{ font:bold 16px/1.6 'Microsoft YaHei', sans-serif; color:#444; }
+        .example h2{ font:bold 15px/1.6 'Microsoft YaHei', sans-serif; color:#444; word-break:break-all; }
+        .example img{max-width:100%;}
     </style>
 </head>
 <body>
     <header>
         <h1>Url2Img 参数说明</h1>
-        <span class="meta">作者 : <a href="http://www.linwu.name/">拳头巴掌</a></span>
-        <span class="meta">源码 : <a href="https://github.com/worklinwu/Url2Img">Github</a></span>
+        <div class="meta">
+            <span>作者 : <a href="http://www.linwu.name/">拳头巴掌</a></span>
+            <span>源码 : <a href="https://github.com/worklinwu/Url2Img">Github</a></span>
+        </div>
     </header>
     <section class="desc">
         <p>首先要运行你的项目</p>
